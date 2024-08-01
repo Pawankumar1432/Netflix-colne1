@@ -1,0 +1,90 @@
+/* QuestionsSection.css */
+
+/* General section styling */
+.faq {
+    padding: 20px;
+    background-color: #333; /* Dark background for contrast */
+    color: white;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styling for each FAQ box */
+.faqbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #444; /* Slightly lighter border for better visibility */
+    border-radius: 4px;
+    background-color: #444; /* Slightly different background for each FAQ box */
+}
+
+.faqbox span {
+    flex: 1;
+    font-size: 18px;
+}
+
+.faqbox svg {
+    margin-left: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.faqbox svg:hover {
+    transform: scale(1.1);
+}
+
+/* Styling for the question and answer section text */
+.qna {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Styling for the hero buttons section */
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hero-buttons input {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #555; /* Input background */
+    color: white;
+    font-size: 16px;
+}
+
+.hero-buttons input::placeholder {
+    color: #aaa; /* Placeholder text color */
+}
+
+.hero-buttons .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #e50914; /* Netflix red */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.hero-buttons .btn:hover {
+    background-color: #f40612; /* Darker red for hover effect */
+}
